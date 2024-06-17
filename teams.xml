@@ -4,19 +4,23 @@
    Case Problem 4
 
    South Racing teams list
-   Author: 
-   Date:   
+   Author: Amalie Von Behren
+   Date:   06/16/2024
 
    Filename:         teams.xml
    Supporting Files: teams.css
 -->
 
-<teams>
+<teams
+xmlns="http://www.example.org/teams" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/teams teams.xsd">
 
    <team tid="t205">
       <title>Rodas Motorsports</title>
       <description>#1 Team in racing</description>
       <series>Indy</series>
+      
    </team>
 
    <team tid="t105">
